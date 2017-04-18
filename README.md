@@ -1,4 +1,3 @@
 # fe-daily-piece
-## 2017
-### May
-* mongo-nav-btn
+## Components
+1. [mongo-nav-btn](https://github.com/yrq110/fe-daily-piece/blob/master/1.mongo-nav-btn.md)
