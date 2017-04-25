@@ -5,3 +5,4 @@
 3. [stackoverflow-label-hint](https://github.com/yrq110/fe-daily-piece/blob/master/3.stackoverflow-label-hint.md)
 4. [csstricks-nav](https://github.com/yrq110/fe-daily-piece/blob/master/4.csstricks-nav.md)
 5. [codepen-page-btn](https://github.com/yrq110/fe-daily-piece/blob/master/5.codepen-page-btn.md)
+6. [zhihu-loading](https://github.com/yrq110/fe-daily-piece/blob/master/6.zhihu-loading.md)
