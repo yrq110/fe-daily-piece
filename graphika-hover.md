@@ -1,8 +1,8 @@
 ## graphika-hover
 
-* date: `2017/04/20`
-* source: [Stack Overflow](http://stackoverflow.com/)
-* demo: [codepen demo](https://codepen.io/yrq110/pen/dWGrNe)
+* date: `2017/04/26`
+* source: [Graphika](http://graphika-inc.com/)
+* demo: [codepen](https://codepen.io/yrq110/pen/YVpJzB)
 
 
 ### HTML
