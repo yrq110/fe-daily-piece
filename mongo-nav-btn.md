@@ -2,7 +2,7 @@
 
 * date: `2017/04/17`
 * source: [MongoDB homepage](https://www.mongodb.com/)
-* demo: [codepen demo](https://codepen.io/yrq110/pen/mmeMEE)
+* demo: [codepen](https://codepen.io/yrq110/pen/mmeMEE)
 
 ### HTML
 ```html
@@ -13,6 +13,15 @@
 
 ### CSS
 ```css
+body {
+  position: absolute;
+  width: 100%;height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 .btn::before{
   content:'';
   position:absolute;
@@ -22,6 +31,7 @@
   transition: width 0.5s;
   background-color: white;
 }
+
 .btn{
   cursor:pointer;
   position:relative;
@@ -30,8 +40,10 @@
   height:35px;
   background-color: black;
 }
+
 .btn:hover::before{
   width: 30px;
+  
 }
 .text {
   margin: 5px auto;
