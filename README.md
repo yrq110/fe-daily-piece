@@ -6,6 +6,7 @@
 4. [csstricks-nav](https://github.com/yrq110/fe-daily-piece/blob/master/csstricks-nav.md)
 5. [codepen-page-btn](https://github.com/yrq110/fe-daily-piece/blob/master/codepen-page-btn.md)
 6. [zhihu-loading](https://github.com/yrq110/fe-daily-piece/blob/master/zhihu-loading.md)
+7. [graphika-banner](https://github.com/yrq110/fe-daily-piece/blob/master/graphika-banner.md)
 
 ## Effects
 1. [graphika-hover](https://github.com/yrq110/fe-daily-piece/blob/master/graphika-hover.md)
