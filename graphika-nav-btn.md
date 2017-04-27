@@ -1,0 +1,65 @@
+## graphika-nav-btn
+
+* date: `2017/04/27`
+* source: [Graphika](http://graphika-inc.com/)
+* demo: [codepen](https://codepen.io/yrq110/pen/XRpZba)
+
+### HTML
+```html
+<div class="gh-nav-btn">
+    Button
+</div>
+```
+
+### CSS
+```css
+body {
+  position: absolute;
+  width: 100%; height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gh-nav-btn {
+  display: block;
+  position: relative;
+  padding: 5px 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+.gh-nav-btn:before {
+  content: '';
+  position: absolute;
+  right: 0;bottom: 0px;left: 0px;
+  display: block;
+  border-bottom: black 2px solid;
+  transition: all 0.5s ease;
+  transform: translate(-101%,0px);
+}
+
+.gh-nav-btn:after {
+  content: '';
+  position: absolute;
+  right: 0;top: 0px;left: 0px;
+  display: block;
+  border-bottom: black 2px solid;
+  transition: all 0.5s ease;
+  transform: translate(101%,0px);
+}
+
+.gh-nav-btn:hover {
+  color: blue;
+}
+
+.gh-nav-btn:hover:before {
+  transform: translate(0%,0px);
+}
+
+.gh-nav-btn:hover:after {
+  transform: translate(0%,0px);
+}
+```
