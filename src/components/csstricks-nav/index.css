@@ -1,0 +1,60 @@
+body {
+  margin:0;
+}
+
+nav {
+  text-align: center;
+  max-width: 100px;
+}
+
+ul {
+  display:block;
+  position: relative;
+  list-style: none;
+  margin: 0;padding: 5px;
+  border: 5px solid;
+  border-width: 5px 5px 5px 0;
+}
+
+li {
+  display: list-item;
+  position: relative;
+  font-weight: bold;
+}
+
+a {
+  position: relative;
+  display: inline-block;
+  transition: 0.1s;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+span {
+  position: relative;
+  display: block;
+  margin-top: -5px;
+  color: black;
+  transform: translateX(-100px);
+}
+
+.span-in {
+  transform: translateX(0px);
+  transition: 0.3s transform;
+}
+
+
+.span-out {
+  transform: translateX(-100px);
+  transition: 0.3s transform;
+}
+
+a:hover {
+  transform: translateY(5px);
+  transition: 0.3s transform;
+}
+
+a:not(:hover) {
+  transform: translateY(0px);
+  transition: 0.3s transform;
+}

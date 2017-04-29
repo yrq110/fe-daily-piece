@@ -1,18 +1,3 @@
-## graphika-nav-btn
-
-* date: `2017/04/27`
-* source: [Graphika](http://graphika-inc.com/)
-* demo: [codepen](https://codepen.io/yrq110/pen/XRpZba)
-
-### HTML
-```html
-<div class="gh-nav-btn">
-    Button
-</div>
-```
-
-### CSS
-```css
 body {
   position: absolute;
   width: 100%; height: 100%;
@@ -62,4 +47,3 @@ body {
 .gh-nav-btn:hover:after {
   transform: translate(0%,0px);
 }
-```

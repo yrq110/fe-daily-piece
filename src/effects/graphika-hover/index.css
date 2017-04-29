@@ -1,22 +1,3 @@
-## graphika-hover
-
-* date: `2017/04/26`
-* source: [Graphika](http://graphika-inc.com/)
-* demo: [codepen](https://codepen.io/yrq110/pen/YVpJzB)
-
-
-### HTML
-```html
-<div class="gh">
-    <img src="http://graphika-inc.com/images/top/vincentBanner.png" alt="">
-    <div class="overlay">
-        <div class="caption">Hello world</div>
-    </div>
-</div>
-```
-
-### CSS
-```css
 .gh {
   display: block;
   position: relative;
@@ -68,4 +49,3 @@
 .gh:hover .caption {
   transform: scale(1.2) translateY(-50%);
 }
-```
