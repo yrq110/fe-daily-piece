@@ -1,0 +1,91 @@
+body {
+  margin: 0; padding: 40px 0 0 0;
+}
+
+.mu-nav {
+  display: block;
+  position: absolute;
+  top: 0;left: 0; right: 0;
+  padding: 40px 0; margin: 0;
+  background: rgb(112,161,168);
+  transition: all 1s ease;
+}
+
+img {
+  width: 100%;
+}
+
+div {
+  color: rgb(251,254,209);
+}
+
+ul,li {
+  padding: 0; margin: 0;
+}
+
+ul {
+  display: inline-block;
+  list-style: none;
+  padding-left: 100px;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(251,254,209);
+  font-weight: bold;
+}
+
+.des {
+  position: absolute;
+  right: 20px;
+  transition: all 1s ease;
+}
+
+.bagger {
+  position: absolute;
+  right: 20px;
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.page-top {
+  display: inline-block;
+  position: fixed;
+  bottom: 20px; right: 20px;
+  cursor: pointer;
+  transition: all 1s ease;
+  background: white;
+  border-radius: 5px;
+  padding: 0 3px;
+  opacity: 0;
+}
+
+.source {
+  display: inline-block;
+  position: fixed;
+  bottom: 10px; left: 10px;
+  font-weight: bold;
+}
+
+.fixed {
+  position:fixed;
+  top: 0;left: 0; right: 0;
+  padding: 20px 0;
+}
+
+.top {
+  padding: 40px 0;
+}
+
+.none {
+  opacity: 0;
+}
+
+.display {
+  opacity: 1;
+}

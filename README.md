@@ -1,6 +1,6 @@
 # fe-daily-piece
 
-[CodePen collection](http://codepen.io/collection/nYpwzp/)
+* [CodePen collection](http://codepen.io/collection/nYpwzp/)
 
 ## Components
 1. [mongo-nav-btn](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/mongo-nav-btn/README.md)
@@ -11,6 +11,8 @@
 6. [zhihu-loading](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/zhihu-loading/README.md)
 7. [graphika-banner](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/graphika-banner/README.md)
 8. [graphika-nav-btn](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/graphika-nav-btn/README.md)
+9. [muuuuu-category](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/muuuuu-category/README.md)
+10. [muuuuu-nav](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/muuuuu-nav/README.md)
 
 ## Effects
-1. [graphika-hover](https://github.com/yrq110/fe-daily-piece/blob/master/graphika-hover.md)
+1. [graphika-hover](https://github.com/yrq110/fe-daily-piece/blob/master/src/effects/graphika-hover/README.md)
