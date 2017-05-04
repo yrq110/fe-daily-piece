@@ -1,0 +1,51 @@
+body {
+  /*background: pa;*/
+  position: absolute;
+  display: flex;
+  height: 100%;width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.ts-btn2 {
+  display: inline-block;
+  position: relative;
+  background: transparent;
+  width: 125px; height: 40px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 120%;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.ts-btn2:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 50%;top: 100%;
+  transform: translateX(-50%);
+  width: 80%;height: 10%;
+  background: blue;
+  transition: all 0.3s ease;
+}
+
+.ts-btn2:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 50%;top: 100%;
+  transform: translateX(-50%);
+  width: 80%;height: 10%;
+  background: blue;
+  transition: all 0.3s ease;
+}
+
+.ts-btn2:hover:before {
+  width: 100%;
+}
+
+.ts-btn2:hover:after{
+  top: 0;
+  width: 100%;
+}
