@@ -13,8 +13,9 @@
 8. [graphika-nav-btn](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/graphika-nav-btn/README.md)
 9. [muuuuu-category](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/muuuuu-category/README.md)
 10. [muuuuu-nav](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/muuuuu-nav/README.md)
-11. [moneyfoward-card](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/moneyforward-card/README.md)
+11. [moneyforward-card](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/moneyforward-card/README.md)
 12. [nintendo-schedule-scroller](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/nintendo-schedule-scroller/README.md)
+13. [nodai-nav](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/nodai-nav/README.md)
 
 ## Effects
 1. [graphika-hover](https://github.com/yrq110/fe-daily-piece/blob/master/src/effects/graphika-hover/README.md)
