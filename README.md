@@ -16,6 +16,7 @@
 11. [moneyforward-card](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/moneyforward-card/README.md)
 12. [nintendo-schedule-scroller](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/nintendo-schedule-scroller/README.md)
 13. [nodai-nav](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/nodai-nav/README.md)
+14. [techstyle-btn](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/techstyle-btn/README.md)
 
 ## Effects
 1. [graphika-hover](https://github.com/yrq110/fe-daily-piece/blob/master/src/effects/graphika-hover/README.md)
