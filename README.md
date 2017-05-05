@@ -17,7 +17,8 @@
 12. [nintendo-schedule-scroller](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/nintendo-schedule-scroller/README.md)
 13. [nodai-nav](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/nodai-nav/README.md)
 14. [techstyle-btn](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/techstyle-btn/README.md)
-
 15. [techstyle-btn-2](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/techstyle-btn-2/README.md)
+16. [kokono-card](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/kokono-card/README.md)
+
 ## Effects
 1. [graphika-hover](https://github.com/yrq110/fe-daily-piece/blob/master/src/effects/graphika-hover/README.md)
