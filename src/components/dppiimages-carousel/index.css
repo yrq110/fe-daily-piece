@@ -1,0 +1,196 @@
+body {
+  position: absolute;
+  display: flex;
+  height: 100%;width: 100%;
+  justify-content: center;
+  margin: 0; padding: 0;
+}
+
+.di-carousel {
+  display: block;
+  position: relative;
+  top: 20%;
+  width: 100%;height: 60%;
+  /*width:1000px;*/
+  background: #f2f2f2;
+}
+
+.statusbar {
+  position: absolute;
+  display: block;
+  left: 79%;top: -100%;
+  background: white;
+  width: 1%;height: 100%;
+  transition: all 3s linear;
+  z-index: 2;
+}
+
+.overview {
+  padding: 0;margin: 0;
+  display: block;
+  white-space: nowrap;
+  width: 100%; height: 50%;
+  transition: all 3s ease;
+}
+
+.overview .pic {
+  position: absolute;
+  display: inline-block;
+  white-space: nowrap;
+  list-style: none;
+  width: 100%; height: 100%;
+  overflow: hidden;
+  background-size: cover;
+  transition: all 3s ease;
+}
+
+.mask {
+  position: absolute;
+  display: block;
+  left: 80%;top: 0;
+  background: red;
+  width: 20%;height: 100%;
+}
+
+.mask .prev {
+  position: relative;
+  display: block;
+  height: 50%;width: 100%;
+  background: green;
+}
+
+.mask .btn {
+  position: absolute;
+  top: 50%;left: 50%;
+  transform: translate(-50%,-50%);
+  width: 20px;height: 20px;
+  cursor: pointer;
+}
+
+.prev .btn:hover {
+
+}
+
+.prev-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;height: 20%;
+  background: black;
+}
+
+.prev-arrow:before {
+  content: '';
+  position: absolute;
+  left: 20%;
+  transform-origin: right bottom;
+  transform: rotate(45deg);
+  width: 70%;height: 100%;
+  background: black;
+}
+
+.prev-arrow:after {
+  content: '';
+  position: absolute;
+  left: 20%;
+  transform-origin: right top;
+  transform: rotate(-45deg);
+  width: 70%; height: 100%;
+  background: black;
+}
+
+.next-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;height: 20%;
+  background: black;
+}
+
+.next-arrow:before {
+  content: '';
+  position: absolute;
+  transform-origin: left bottom;
+  transform: rotate(45deg);
+  width: 70%;height: 100%;
+  background: black;
+}
+
+.next-arrow:after {
+  content: '';
+  position: absolute;
+  transform-origin: left top;
+  transform: rotate(-45deg);
+  width: 70%; height: 100%;
+  background: black;
+}
+
+.mask .next {
+  position: relative;
+  display: block;
+  height: 50%;width: 100%;
+  background: blue;
+}
+
+.contents {
+  position: relative;
+  width: 100%; height: 200px;
+  top: 100%;
+  /*background: red;*/
+}
+
+.contents ul {
+  margin: 0; padding: 0;
+}
+
+.contents .content {
+  position: absolute;
+  display: inline-block;
+  white-space: nowrap;
+  list-style: none;
+  width: 100%;height: 100%;
+  transition: all 1s ease;
+}
+
+.contents .left-area{
+  display: block;
+  position: absolute;
+  width: 50%; height: 100%;
+  background: white;
+}
+
+.left-area .small {
+  padding-left: 100px;
+  padding-top: 20px;
+  font-weight: bold;
+  transition: all 1s ease;
+}
+
+.left-area .medium {
+  padding-left: 100px;
+  padding-top: 20px;
+  font-size: 150%;
+  transition: all 1s ease;
+  transition-delay: 0.3s;
+}
+
+.right-area .link {
+  padding-top: 50px;
+  padding-left: 400px;
+  font-weight: bold;
+  transition: all 1s ease;
+  transition-delay: 0.6s;
+  cursor: pointer;
+}
+
+.contents .right-area{
+  display: block;
+  position: absolute;
+  left: 50%;
+  width: 50%; height: 100%;
+}
+
+p {
+  position: absolute;
+  left: 0;top: 5%;
+}
