@@ -1,0 +1,41 @@
+body {
+  background: black;
+  position: absolute;
+  display: flex;
+  height: 100%;width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.cp-btn {
+  color: white;
+  font-weight: bold;
+  border: 4px solid #ccc;
+  border-radius: 3px;
+  outline: none;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.cp-btn:hover {
+  color: black;
+  background-color: white;
+  border-color: white;
+}
+
+.cp-btn:active {
+  transform: translateY(1px);
+}
+
+.cp-btn > span {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.cp-btn > svg {
+  vertical-align: bottom;
+}
+
+.cp-btn:hover svg path {
+  fill: black;
+}
