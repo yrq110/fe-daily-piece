@@ -21,6 +21,8 @@
 16. [kokono-card](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/kokono-card/README.md)
 17. [dppiimages-carousel](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/dppiimages-carousel/README.md)
 18. [voicecream-nav](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/voicecream-nav/README.md)
+19. [epoch-btn](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/epoch-btn/README.md)
+20. [hajimekata-carousel](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/hajimekata-carousel/README.md)
 
 ## Effects
 1. [graphika-hover](https://github.com/yrq110/fe-daily-piece/blob/master/src/effects/graphika-hover/README.md)

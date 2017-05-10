@@ -1,0 +1,89 @@
+body {
+  display: flex;
+  position: absolute;
+  width: 100%;height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.ep-btn {
+  position: absolute;
+  left: 45%;
+  display: inline-block;
+  width: 40px; height: 40px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+  border: 1px solid grey;
+  transition: all 0.3s ease;
+}
+
+.ep-btn .plus {
+  position: relative;
+  display: inline-block;
+  width: 10px; height: 10px;
+}
+
+.ep-btn .plus .bar {
+  position: absolute;
+  left: 0; top: 5px;
+  display: inline-block;
+  width: 10px;height: 1px;
+  background: black;
+}
+
+.ep-btn .plus .bar:before {
+  content: '';
+  position: absolute;
+  left: 5px; top: -4px;
+  display: inline-block;
+  width: 1px;height: 5px;
+  background: black;
+  transition: all .3s ease;
+}
+
+.ep-btn .plus .bar:after {
+  content: '';
+  position: absolute;
+  left: 5px; top: 0px;
+  display: inline-block;
+  width: 1px;height: 5px;
+  background: black;
+  transition: all .3s ease;
+}
+
+.ep-btn:hover {
+  width: auto;
+  height: 40px;
+  padding: 0 70px;
+  background: black;
+}
+
+.ep-btn:hover .plus .bar{
+  background: white;
+}
+
+.ep-btn:hover .plus .bar:before {
+  left: 9px;
+  transform: rotate(-45deg);
+  background: white;
+}
+
+.ep-btn:hover .plus .bar:after {
+  left: 9px;
+  transform: rotate(45deg);
+  background: white;
+}
+
+.ep-btn .btn-txt {
+  display: none;
+  opacity: 0;
+  color: white;
+  transition: all .3s ease;
+}
+
+.ep-btn:hover .btn-txt {
+  display: inline;
+  opacity: 1;
+}

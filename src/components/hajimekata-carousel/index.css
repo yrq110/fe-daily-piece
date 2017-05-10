@@ -1,0 +1,116 @@
+body {
+  margin: 0; padding: 0;
+}
+
+.hj-carousel {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  /*background: red;*/
+}
+
+.hj-carousel .section-l {
+  position: absolute;
+  top: 0; left: 0;
+  width: 40%; height: 100%;
+}
+
+.hj-carousel .section-r {
+  position: absolute;
+  top: 0; left: 60%;
+  width: 40%; height: 100%;
+}
+.hj-carousel .slide {
+  margin: 0;padding: 0;
+  position: relative;
+  width: auto;height: 100%;
+}
+
+.hj-carousel .piece {
+  position: absolute;
+  width: 100%;height: 100%;
+  display: none;
+  list-style: none;
+  cursor: pointer;
+}
+
+.piece .mask {
+  position: absolute;
+  left: 0;top: 0;
+  width: 100%; height: 100%;
+  background: rgba(255,0,0,.6);
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.piece .mask .mask-txt {
+  position: absolute;
+  width: 100%; height: 100%;
+  top: 70%;
+  color: white;
+  text-align: center;
+  font-size: 150%;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.piece:hover .mask {
+  opacity: 1;
+  top: 0%;
+}
+
+.piece:hover .mask .mask-txt {
+  top: 60%;
+}
+
+.hj-carousel .back {
+  width: 100%; height: 100%;
+  overflow: hidden;
+}
+
+.hj-carousel .img {
+  width: 150%; height: 150%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 5s linear;
+}
+
+.hj-carousel .card {
+  position: absolute;
+  top: 0;left: 20%;
+  width: 60%; height: 20%;
+  opacity: 0;
+  z-index: 2;
+  background: inherit;
+  transition: all 0.5s ease;
+  transition-delay: .5s;
+}
+
+.hj-carousel .card .card-title {
+  text-align: center;
+  color: white;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.hj-carousel .card .card-section {
+  position: relative;
+  left: 20%;
+  width: 60%; height: 40%;
+  text-align: center;
+  color: white;
+  background: red;
+  font-size: 120%;
+  font-weight: bold;
+  box-shadow: 0 3px 5px black;
+}
+
+.hj-carousel .card .card-section:before {
+  content: '';
+  position: absolute;
+  width: 20px; height: 20px;
+  left: 45%;
+  top: 80%;
+  background: inherit;
+  transform: rotate(45deg);
+}
