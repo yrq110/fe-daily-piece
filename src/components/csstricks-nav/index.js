@@ -1,5 +1,5 @@
-var ul = document.getElementsByTagName("ul")[0];
-var span = document.getElementsByTagName("span");
+var span = document.querySelectorAll(".main-nav span");
+var ul = document.querySelector(".main-nav ul");
 
 ul.onmouseenter = function () {
   console.log("ul enter");
