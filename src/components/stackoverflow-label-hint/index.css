@@ -2,7 +2,7 @@ body {
   margin: 0px; padding: 0px;
 }
 
-#btn {
+.btn {
   margin: 10px 0 0px 10px;
   border: none;
   outline: none;
@@ -10,11 +10,11 @@ body {
   color: white;
 }
 
-#btn:hover {
+.btn:hover {
   background-color: grey;
 }
 
-#callout {
+.callout {
   position: absolute;
   padding: 10px 10px;
   max-width: 400px;
@@ -24,18 +24,18 @@ body {
   font-size: 75%;
 }
 
-#callout {
+.callout {
   transform-origin: 0 0;
   transition: 0.3s transform;
   transition-delay: 1s;
 }
 
-#btn:not(:hover) + #callout:not(:hover) {
+.btn:not(:hover) + .callout:not(:hover) {
   transform: scale(0);
   transition: 0.3s transform;
 }
 
-#num {
+.callout-title {
   font-weight: bold;
   padding-bottom: 5px;
   margin-bottom: 5px;
