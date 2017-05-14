@@ -1,0 +1,61 @@
+* {
+  margin: 0; padding: 0;
+}
+
+body {
+  display: flex;
+  width: 100%;height: 100%;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background: #f2f2f2;
+}
+
+.ct-card {
+  position: relative;
+  width: 400px; height: 600px;
+  background: red;
+
+}
+
+.content {
+  position: relative;
+  width: 90%; height: 60%;
+  overflow: hidden;
+  margin: 5% 5% 0 5%;
+  background: url('../../../assets/dva.jpg') center center no-repeat;
+  background-size: cover;
+  /*filter: grayscale(1);*/
+  transition: all .3s ease;
+}
+
+
+.content h2 {
+  position: relative;
+  font-family: cookie;
+  font-size: 500%;
+  /*margin-top: 0;*/
+  padding-left: 50px;
+  height: 100%;
+  background: inherit;
+  pointer-events: none;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+  vertical-align: middle;
+  filter: invert(1) grayscale(1) contrast(3) drop-shadow(0 3px 1px orange);
+  /*mix-blend-mode: difference;*/
+  /*mix-blend-mode: exclusion;*/
+  /*mix-blend-mode: lighten;*/
+  transition: all .3s ease;
+}
+
+.ct-card:hover .content {
+  /*filter: grayscale(0);*/
+}
+
+.ct-crad:hover h2 {
+  transform: translateX(-50px);
+  /*padding-left: 0px;*/
+}
