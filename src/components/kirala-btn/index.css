@@ -1,0 +1,125 @@
+.kr-btn {
+  position: relative;
+  width: 100px;height: 40px;
+  background: black;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 10;
+  transition: all .5s ease;
+}
+
+.kr-btn:hover {
+  background: white;
+  color: black;
+  transition-delay: .5s;
+}
+
+.kr-btn:before, .kr-btn:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  transition: all .3s cubic-bezier(.075,.82,.165,1);
+  z-index: 2;
+}
+
+.kr-btn:before {
+  right: 16px;
+  width: 3px;
+  height: 5px;
+  margin-top: -5px;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+}
+
+.kr-btn:hover:before {
+  border-top-color: black;
+  border-bottom-color: black;
+  transform: translateX(4px);
+  transition-delay: .5s;
+}
+
+.kr-btn:after {
+  right: 12px;
+  width: 3px;
+  height: 3px;
+  margin-top: -1px;
+  border-right: 3px solid #fff;
+}
+
+.kr-btn:hover:after {
+  border-right-color: black;
+  transform: translateX(4px);
+  transition-delay: .6s;
+}
+
+.kr-btn .text {
+  display: block;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  letter-spacing: 1px;
+}
+i:before, i:after {
+  content: '';
+  position: absolute;
+  background: white;
+  z-index: 1;
+}
+
+.kr-btn:hover > i:before {
+  animation: l .5s forwards;
+}
+
+.kr-btn:hover > i:after {
+  animation: r .5s forwards;
+}
+
+@keyframes l {
+  0% {
+    left:12px;top:-12px;width:12px;height:12px;
+    animation-timing-function:cubic-bezier(.6,.04,.98,.335)
+  }
+  20% {
+    left:12px;top:18px;width:12px;height:12px;
+    animation-timing-function:cubic-bezier(.455,.03,.515,.955)
+  }
+  70%{
+    left:38px;top:18px;width:12px;height:12px;
+    animation-timing-function:cubic-bezier(.075,.82,.165,1)
+  }
+  80% {
+    left:48px;top:0;width:1px;height:41px;
+    animation-timing-function:cubic-bezier(.075,.82,.165,1)
+  }
+  to {
+    left:0;top:0;width:51px;height:41px;
+    animation-timing-function:cubic-bezier(.6,.04,.98,.335)
+  }
+}
+
+@keyframes r {
+  0% {
+    right:12px;top:41px;width:12px;height:12px;
+    animation-timing-function:cubic-bezier(.6,.04,.98,.335)
+  }
+  20% {
+    right:12px;top:18px;width:12px;height:12px;
+    animation-timing-function:cubic-bezier(.455,.03,.515,.955)
+  }
+  70% {
+    right:62px;top:18px;width:12px;height:12px;
+    animation-timing-function:cubic-bezier(.075,.82,.165,1)
+  }
+  80% {
+    right:46px;top:0;width:1px;height:41px;
+    animation-timing-function:cubic-bezier(.075,.82,.165,1)
+  }
+  to
+  {
+    right:0;top:0;width:51px;height:41px;
+    animation-timing-function:cubic-bezier(.6,.04,.98,.335)
+  }
+}
