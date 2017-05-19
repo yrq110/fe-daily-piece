@@ -79,47 +79,47 @@ i:before, i:after {
 
 @keyframes l {
   0% {
-    left:12px;top:-12px;width:12px;height:12px;
+    left:12%;top:-12px;width:12px;height:12px;
     animation-timing-function:cubic-bezier(.6,.04,.98,.335)
   }
   20% {
-    left:12px;top:18px;width:12px;height:12px;
+    left:12%;top:36%;width:12px;height:12px;
     animation-timing-function:cubic-bezier(.455,.03,.515,.955)
   }
   70%{
-    left:38px;top:18px;width:12px;height:12px;
+    left:38%;top:36%;width:12px;height:12px;
     animation-timing-function:cubic-bezier(.075,.82,.165,1)
   }
   80% {
-    left:48px;top:0;width:1px;height:41px;
+    left:48%;top:0;width:1px;height:101%;
     animation-timing-function:cubic-bezier(.075,.82,.165,1)
   }
   to {
-    left:0;top:0;width:51px;height:41px;
+    left:0;top:0;width:51%;height:101%;
     animation-timing-function:cubic-bezier(.6,.04,.98,.335)
   }
 }
 
 @keyframes r {
   0% {
-    right:12px;top:41px;width:12px;height:12px;
+    right:12%;top:101%;width:12px;height:12px;
     animation-timing-function:cubic-bezier(.6,.04,.98,.335)
   }
   20% {
-    right:12px;top:18px;width:12px;height:12px;
+    right:12%;top:36%;width:12px;height:12px;
     animation-timing-function:cubic-bezier(.455,.03,.515,.955)
   }
   70% {
-    right:62px;top:18px;width:12px;height:12px;
+    right:38%;top:36%;width:12px;height:12px;
     animation-timing-function:cubic-bezier(.075,.82,.165,1)
   }
   80% {
-    right:46px;top:0;width:1px;height:41px;
+    right:48%;top:0;width:1px;height:101%;
     animation-timing-function:cubic-bezier(.075,.82,.165,1)
   }
   to
   {
-    right:0;top:0;width:51px;height:41px;
+    right:0;top:0;width:51%;height:101%;
     animation-timing-function:cubic-bezier(.6,.04,.98,.335)
   }
 }
