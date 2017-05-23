@@ -26,6 +26,7 @@
 21. [coachella-card](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/coachella-card/README.md)
 22. [kzuoh-card](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/kzuoh-card/README.md)
 23. [kirala-btn](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/kirala-btn/README.md)
-
+24. [eien-btn](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/eien-btn/README.md)
+25. [moodley-card](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/moodley-card/README.md)
 ## Effects
 1. [graphika-hover](https://github.com/yrq110/fe-daily-piece/blob/master/src/effects/graphika-hover/README.md)
