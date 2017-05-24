@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <title>baidu-loading</title>
+  </head>
+  <body>
+    <div class="bd-loading">
+      <svg width="200" height="100" viewBox="0 0 200 100">
+        <circle cx="100" cy="50" r="10" fill="blue">
+          <animate id="b-step-1" attributeName="cx" begin="0s;b-step-2.end+1s" dur="2s" values="100;50;100;50;100" />
+          <animate id="b-step-2" attributeName="cx" begin="b-step-1.end+1s" dur="2s" values="100;150;100;150;100" />
+        </circle>
+        <circle cx="100" cy="50" r="10" fill="red">
+          <animate id="r-step-1" attributeName="cx" begin="0s;r-step-3.end+0s" dur="1s" values="100;150;100" />
+          <animate id="r-step-2" attributeName="cx" begin="r-step-1.end+1s" dur="2s" values="100;50;100;50;100" />
+          <animate id="r-step-3" attributeName="cx" begin="r-step-2.end+1s" dur="1s" values="100;150;100" />
+        </circle>
+        <circle cx="100" cy="50" r="10" fill="grey">
+          <animate id="g-step-1" attributeName="cx" begin="1s;g-step-2.end+1s" dur="2s" values="100;150;100;150;100" />
+          <animate id="g-step-2" attributeName="cx" begin="g-step-1.end+1s" dur="2s" values="100;50;100;50;100" />
+        </circle>
+      </svg>
+    </div>
+  </body>
+</html>
