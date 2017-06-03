@@ -29,5 +29,7 @@
 24. [eien-btn](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/eien-btn/README.md)
 25. [moodley-card](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/moodley-card/README.md)
 26. [baidu-loading](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/baidu-loading/README.md)
+27. [original-ball](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/original-ball/README.md)
+
 ## Effects
 1. [graphika-hover](https://github.com/yrq110/fe-daily-piece/blob/master/src/effects/graphika-hover/README.md)

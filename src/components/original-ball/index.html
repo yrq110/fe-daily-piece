@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <title>original-ball</title>
+  </head>
+  <body>
+    <div class="original-ball">
+      <svg width="160" height="100" viewBox="0 0 160 100">
+        <circle cx="40" cy="50" r="10" fill="blue">
+          <animate id="l-step-1"
+            attributeName="cx"
+            begin="0s;r-step-2.end+0s"
+            dur=".5s"
+            to="10"
+            calcMode="spline"
+            keyTimes="0;1"
+            keySplines="0 0 .58 1"
+            fill="freeze"
+          />
+          <animate id="l-step-2"
+            attributeName="cx"
+            begin="l-step-1.end+0s;"
+            dur=".5s"
+            to="40"
+            calcMode="spline"
+            keyTimes="0;1"
+            keySplines=".42 0 1 1"
+            fill="freeze"
+          />
+        </circle>
+        <circle cx="60" cy="50" r="10" fill="blue"></circle>
+        <circle cx="80" cy="50" r="10" fill="blue"></circle>
+        <circle cx="100" cy="50" r="10" fill="blue"></circle>
+        <circle cx="120" cy="50" r="10" fill="blue">
+          <animate id="r-step-1"
+            attributeName="cx"
+            begin="l-step-2.end+0s"
+            dur=".5s"
+            to="150"
+            calcMode="spline"
+            keyTimes="0;1"
+            keySplines="0 0 .58 1"
+            fill="freeze"
+          />
+          <animate id="r-step-2"
+            attributeName="cx"
+            begin="r-step-1.end+0s"
+            dur=".5s"
+            to="120"
+            calcMode="spline"
+            keyTimes="0;1"
+            keySplines=".42 0 1 1"
+            fill="freeze"
+          />
+        </circle>
+      </svg>
+    </div>
+  </body>
+</html>
