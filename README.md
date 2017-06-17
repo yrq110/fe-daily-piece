@@ -32,5 +32,6 @@
 27. [original-ball](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/original-ball/README.md)
 28. [funplex-loading](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/funplex-loading/README.md)
 29. [ace-btn](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/ace-btn/README.md)
+30. [lig-checkbox](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/lig-checkbox/README.md)
 ## Effects
 1. [graphika-hover](https://github.com/yrq110/fe-daily-piece/blob/master/src/effects/graphika-hover/README.md)
