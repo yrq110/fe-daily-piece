@@ -34,5 +34,6 @@
 29. [ace-btn](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/ace-btn/README.md)
 30. [lig-checkbox](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/lig-checkbox/README.md)
 31. [lig-radio](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/lig-radio/README.md)
+32. [spaceshowertv-loading](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/spaceshowertv-loading/README.md)
 ## Effects
 1. [graphika-hover](https://github.com/yrq110/fe-daily-piece/blob/master/src/effects/graphika-hover/README.md)
