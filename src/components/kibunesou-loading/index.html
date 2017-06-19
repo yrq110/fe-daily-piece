@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <title>kibunesou-loading</title>
+  </head>
+  <body>
+    <div class="kb-loading">
+      <svg width="50" height="50" viewBox="0 0 20 20">
+        <circle id="big" cx="10" cy="10" r="10" >
+          <animate id="big_min" attributeName="r" from="10" to="5" calcMode="spline" keyTimes="0;1" keySplines=".44 0 .76 .56" begin="0s;big_max.end" dur=".5s" fill="freeze"/>
+          <animate id="big_max" attributeName="r" from="5" to="10" calcMode="spline" keyTimes="0;1" keySplines="0 .44 .56 .76" begin="big_min.end" dur=".5s" fill="freeze"/>
+        </circle>
+        <circle id="small" cx="10" cy="10" r="0">
+          <animate id="small_max" attributeName="r" from="0" to="6" calcMode="spline" keyTimes="0;1" keySplines=".44 0 .76 .56" begin="0s;small_min.end" dur=".5s" fill="freeze"/>
+          <animate id="small_min" attributeName="r" from="6" to="0" calcMode="spline" keyTimes="0;1" keySplines="0 .44 .56 .76" begin="small_max.end" dur=".5s" fill="freeze"/>
+        </circle>
+      </svg>
+    </div>
+  </body>
+</html>
