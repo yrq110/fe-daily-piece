@@ -82,7 +82,7 @@ input[type="checkbox"]:checked ~ label svg path{
 label{
   cursor: pointer;
   color: #999;
-  transition: color　0.3s；
+  transition: color　0.3s;
 }
 
 label:before{
