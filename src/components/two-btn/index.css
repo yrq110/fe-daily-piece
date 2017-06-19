@@ -1,0 +1,85 @@
+body {
+  display: flex;
+  position: absolute;
+  height: 100%;width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.two-btn {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100px;height: 40px;
+  background: white;
+  border: 2px solid rgba(0, 0, 0, 0.25);
+}
+
+.two-btn > span{
+  background: black;
+}
+
+.two-btn .label {
+  background: inherit;
+}
+
+.two-btn .border-r {
+  position: absolute;
+  right: -2px;
+  bottom: 0;
+  width: 2px;
+  height: 0;
+  
+}
+
+.two-btn:hover .border-r {
+  height: 100%;
+  transition: height .1s ease-out;
+  transition-delay: 0s;
+}
+
+.two-btn .border-t {
+  position: absolute;
+  top: -2px;
+  right: 0;
+  width: 0;
+  height: 2px;
+  
+}
+
+.two-btn:hover .border-t {
+  width: 100%;
+  transition: width .1s ease-out;
+  transition-delay: .1s;
+}
+
+.two-btn .border-l {
+  position: absolute;
+  left: -2px;
+  top: 0;
+  width: 2px;
+  height: 0;
+}
+
+.two-btn:hover .border-l {
+  height: 100%;
+  transition: height .1s ease-out;
+  transition-delay: .2s;
+}
+
+.two-btn .border-b {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 3px;
+}
+
+.two-btn:hover .border-b {
+  width: 100%;
+  transition: width .1s ease-out;
+  transition-delay: .3s;
+}
+
