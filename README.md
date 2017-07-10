@@ -38,5 +38,6 @@
 33. [kibunesou-loading](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/kibunesou-loading/README.md)
 34. [two-btn](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/two-btn/README.md)
 35. [original-card](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/original-card/README.md)
+36. [tumblr-loading](https://github.com/yrq110/fe-daily-piece/blob/master/src/components/tumblr-loading/README.md)
 ## Effects
 1. [graphika-hover](https://github.com/yrq110/fe-daily-piece/blob/master/src/effects/graphika-hover/README.md)
