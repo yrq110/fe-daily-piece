@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  width: 100%;height: 100%;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background: #f2f2f2;
+}
+
+.reverse-card {
+  cursor: pointer;
+  position: relative;
+  width: 300px; 
+  height: 400px;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+
+.section {
+  position: absolute;
+  width: 100%; height: 100%;
+  text-align: center;
+   /* backface-visibility: hidden;  */
+  transition: all 1s ease;
+}
+
+.front {
+  z-index: 2;
+  transform-origin: 0;
+  background: red;
+}
+
+.reverse-card:hover .front {
+  transform: rotateY(-180deg);
+}
+
+.back {
+  left: -100%;
+   transform-origin: 100% 0; 
+  background: yellow;
+  transform: rotateY(180deg);
+}
+
+.reverse-card:hover .back {
+  transform: rotateY(0);
+}
+
+.second {
+  z-index: 1;
+  transform-origin: 0;
+  background: green;
+}
+
+p {
+  margin: 0; padding: 0;
+  position: absolute; 
+  top: 50%;left: 50%;
+  transform: translate(-50%,-50%);
+}
