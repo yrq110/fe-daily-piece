@@ -1,0 +1,11 @@
+body {
+  display: flex;
+  position: absolute;
+  height: 100%;width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.tumblr-loading rect{
+  fill: red;
+}
